@@ -12,6 +12,12 @@ import javafx.scene.layout.Pane;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * Controlador para asociar los estilos segun el stock y crear los productos
+ *
+ * @author Lierni
+ * @version 1.0
+ */
 public class ControladorProductos implements Initializable {
     private String style = "";
 
@@ -75,6 +81,13 @@ public class ControladorProductos implements Initializable {
         nombreText.setText(nombre);
     }
 
+    /**
+     * AL implementar la clase Initializable hay que implementar este metodo.
+     * Este metodo hace que todo el codigo que este dentro se ejecute al iniciarse al aplicacion.
+     *
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         setStock(stockProducto, 10, panel1);

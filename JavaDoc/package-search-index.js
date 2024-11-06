@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"es.liernisarraoa.dein_ejerciciop_lsj","l":"es.liernisarraoa.dein_ejerciciop_lsj"},{"m":"es.liernisarraoa.dein_ejerciciop_lsj","l":"es.liernisarraoa.dein_ejerciciop_lsj.Controlador"}];updateSearchResults();
