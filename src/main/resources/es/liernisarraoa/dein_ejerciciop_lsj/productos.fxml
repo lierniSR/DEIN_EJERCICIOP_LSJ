@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@CSS/style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.liernisarraoa.dein_ejerciciop_lsj.Controlador.ControladorProductos">
+   <children>
+      <Label text="MIS PRODUCTOS">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="10.0" top="10.0" />
+         </VBox.margin>
+      </Label>
+        <Pane fx:id="panel1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="576.0">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+         <children>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="576.0">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="173.0" minWidth="10.0" prefWidth="119.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="304.0" minWidth="10.0" prefWidth="168.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="313.0" minWidth="10.0" prefWidth="274.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <ImageView fx:id="imagenProducto" fitHeight="103.0" fitWidth="117.0" pickOnBounds="true" />
+                    <Label fx:id="nombreProducto" alignment="CENTER_RIGHT" prefHeight="109.0" prefWidth="121.0" GridPane.columnIndex="1">
+                        <font>
+                            <Font size="36.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="stockProducto" alignment="CENTER_RIGHT" prefHeight="104.0" prefWidth="292.0" GridPane.columnIndex="2">
+                        <font>
+                            <Font size="36.0" />
+                        </font>
+                    </Label>
+                </children>
+            </GridPane>
+         </children>
+        </Pane>
+      <Pane fx:id="panel2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="576.0">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+         <children>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="576.0">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="173.0" minWidth="10.0" prefWidth="119.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="304.0" minWidth="10.0" prefWidth="169.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="313.0" minWidth="10.0" prefWidth="273.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <ImageView fx:id="imagenProducto1" fitHeight="103.0" fitWidth="117.0" pickOnBounds="true" />
+                    <Label fx:id="nombreProducto1" alignment="CENTER_RIGHT" prefHeight="109.0" prefWidth="121.0" GridPane.columnIndex="1">
+                        <font>
+                            <Font size="36.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="stockProducto1" alignment="CENTER_RIGHT" prefHeight="104.0" prefWidth="292.0" GridPane.columnIndex="2">
+                        <font>
+                            <Font size="36.0" />
+                        </font>
+                    </Label>
+                </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <Pane fx:id="panel3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="576.0">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+         <children>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="576.0">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="173.0" minWidth="10.0" prefWidth="119.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="304.0" minWidth="10.0" prefWidth="169.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="313.0" minWidth="10.0" prefWidth="273.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <ImageView fx:id="imagenProducto2" fitHeight="103.0" fitWidth="117.0" pickOnBounds="true" />
+                    <Label fx:id="nombreProducto2" alignment="CENTER_RIGHT" prefHeight="109.0" prefWidth="121.0" GridPane.columnIndex="1">
+                        <font>
+                            <Font size="36.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="stockProducto2" alignment="CENTER_RIGHT" prefHeight="104.0" prefWidth="292.0" GridPane.columnIndex="2">
+                        <font>
+                            <Font size="36.0" />
+                        </font>
+                    </Label>
+                </children>
+            </GridPane>
+         </children>
+      </Pane>
+   </children>
+</VBox>
